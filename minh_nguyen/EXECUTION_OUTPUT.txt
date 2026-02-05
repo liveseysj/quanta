@@ -1,0 +1,27 @@
+Loading QQQ data...
+Train data: 4025 days (2000-01-03 to 2015-12-31)
+Validation data: 1511 days (2016-01-04 to 2021-12-31)
+Blind data: 986 days (2022-01-03 to 2025-12-05)
+
+=== Sharpe & Mean PnL Metrics ===
+                                    Signal    Sharpe   MeanPnL     Dataset
+0           Volatility Shock Mean-Reverter  0.543810  0.000839       Train
+1    Event-Driven Liquidity Rebound Trader  0.154822  0.000240       Train
+2   Volatility Compression Momentum Trader  0.336911  0.000551       Train
+3     Equal-Weight Multi-Persona Portfolio  0.476829  0.000543       Train
+4           Volatility Shock Mean-Reverter  1.358740  0.001412  Validation
+5    Event-Driven Liquidity Rebound Trader  0.701515  0.000792  Validation
+6   Volatility Compression Momentum Trader  0.637658  0.000754  Validation
+7     Equal-Weight Multi-Persona Portfolio  1.264204  0.000981  Validation
+8           Volatility Shock Mean-Reverter  1.560999  0.001929       Blind
+9    Event-Driven Liquidity Rebound Trader  1.492248  0.001649       Blind
+10  Volatility Compression Momentum Trader  1.033128  0.001370       Blind
+11    Equal-Weight Multi-Persona Portfolio  2.141549  0.001638       Blind
+
+=== PnL Correlation Matrix (Signals Only) ===
+                                        Volatility Shock Mean-Reverter  ...  Volatility Compression Momentum Trader
+Volatility Shock Mean-Reverter                                   1.000  ...                                   0.272
+Event-Driven Liquidity Rebound Trader                            0.167  ...                                   0.313
+Volatility Compression Momentum Trader                           0.272  ...                                   1.000
+
+[3 rows x 3 columns]
