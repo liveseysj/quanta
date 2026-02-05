@@ -1,3 +1,4 @@
 # Data files (duplicates from other directories)
 claude_hybrid_strategy/QQQ Fellowship Blind Out of Sample.csv
 claude_hybrid_strategy/Quanta Fellowship Train & Validate.csv
+__pycache__/
